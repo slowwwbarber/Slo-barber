@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Slow Barber</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#080808;
+  color:white;
+}
+main{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:25px;
+}
+.card{
+  width:100%;
+  max-width:850px;
+  padding:45px;
+  border-radius:28px;
+  background:linear-gradient(145deg,#171717,#080808);
+  border:1px solid #333;
+}
+h1{
+  font-size:70px;
+  margin:15px 0;
+  line-height:.9;
+}
+p{color:#aaa}
+.servicos{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:15px;
+  margin:30px 0;
+}
+.servico{
+  padding:25px;
+  border-radius:20px;
+  background:#151515;
+  border:1px solid #333;
+}
+.preco{
+  font-size:35px;
+  font-weight:bold;
+  margin-top:10px;
+}
+button,a{
+  display:block;
+  text-align:center;
+}
+.whatsapp{
+  background:white;
+  color:black;
+  padding:18px;
+  border-radius:15px;
+  text-decoration:none;
+  font-weight:bold;
+}
+@media(max-width:600px){
+  h1{font-size:50px}
+  .servicos{grid-template-columns:1fr}
+  .card{padding:25px}
+}
+</style>
+</head>
+
+<body>
+<main>
+<div class="card">
+
+<p>SLOW • ESTILO • ATITUDE</p>
+
+<h1>SLOW<br>BARBER.</h1>
+
+<p>Seu visual, no seu ritmo.</p>
+
+<div class="servicos">
+
+<div class="servico">
+Corte
+<div class="preco">R$ 30</div>
+<p>Corte avulso.</p>
+</div>
+
+<div class="servico">
+Assinatura Slow
+<div class="preco">R$ 80/mês</div>
+<p>Cortes ilimitados enquanto a assinatura estiver ativa.</p>
+</div>
+
+</div>
+
+<a class="whatsapp"
+href="https://wa.me/5511914799662?text=Oi%2C%20tenho%20interesse%20na%20Slow%20Barber">
+CHAMAR NO WHATSAPP
+</a>
+
+</div>
+</main>
+</body>
+</html>
